@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "outDir": "dist",
+    "rootDir": "."
+  },
+  "include": [
+    "shared/**/*.ts",
+    "wdk/**/*.ts",
+    "wallet-evm/**/*.ts",
+    "wallet-evm-erc-4337/**/*.ts",
+    "wallet-solana/**/*.ts",
+    "wallet-ton/**/*.ts",
+    "wallet-tron/**/*.ts",
+    "mcp-toolkit/**/*.ts"
+  ],
+  "exclude": ["node_modules", "dist"]
+}
