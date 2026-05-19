@@ -74,10 +74,14 @@
     "example:wallet-tron:fee-management": "tsx wallet-tron/fee-management.ts",
     "example:wallet-tron:memory-management": "tsx wallet-tron/memory-management.ts",
     "validate:wallet-tron": "tsx wallet-tron/create-wallet.ts && tsx wallet-tron/manage-accounts.ts && tsx wallet-tron/check-balances.ts && tsx wallet-tron/read-only-account.ts && tsx wallet-tron/send-transaction.ts && tsx wallet-tron/token-transfer.ts && tsx wallet-tron/sign-verify-message.ts && tsx wallet-tron/fee-management.ts && tsx wallet-tron/memory-management.ts",
+    "example:cowswap:swap-tokens": "tsx cowswap/swap-tokens.ts",
+    "example:cowswap:limit-order": "tsx cowswap/limit-order.ts",
+    "example:cowswap:cancel-order": "tsx cowswap/cancel-order.ts",
+    "validate:cowswap": "tsx cowswap/swap-tokens.ts && tsx cowswap/limit-order.ts && tsx cowswap/cancel-order.ts",
     "example:mcp-toolkit:basic-server": "tsx mcp-toolkit/basic-server.ts",
     "example:mcp-toolkit:langchain-agent": "tsx mcp-toolkit/langchain/typescript/agent.ts",
     "validate:mcp-toolkit": "npm run typecheck",
-    "validate:all": "npm run validate:wdk && npm run validate:wallet-evm && npm run validate:wallet-evm-erc-4337 && npm run validate:wallet-solana && npm run validate:wallet-ton && npm run validate:wallet-tron && npm run validate:mcp-toolkit"
+    "validate:all": "npm run validate:wdk && npm run validate:wallet-evm && npm run validate:wallet-evm-erc-4337 && npm run validate:wallet-solana && npm run validate:wallet-ton && npm run validate:wallet-tron && npm run validate:cowswap && npm run validate:mcp-toolkit"
   },
   "dependencies": {
     "@langchain/anthropic": "^1.3.27",
@@ -99,6 +103,7 @@
     "@tetherto/wdk-wallet-ton": "latest",
     "@tetherto/wdk-wallet-tron": "latest",
     "@tetherto/wdk-wallet-sui": "file:../wdk-wallet-sui",
+    "@tetherto/wdk-protocol-swap-cowswap-evm": "file:../wdk-protocol-swap-cowswap-evm",
     "dotenv": "^16.4.7"
   },
   "devDependencies": {

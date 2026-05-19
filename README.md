@@ -1,12 +1,18 @@
 ## Overview
 
-Monorepo of the WDK module implementation for SUI blockchain.
+Monorepo of the WDK module implementation for SUI blockchain and Cowswap.
 
-## Componenets
+## wdk-wallet-sui
 
-- [wdk-wallet-sui](/wdk-wallet-sui/) - module implementation.
-- [wdk-examples](/wdk-examples/) - integrated code samples for WDK SUI module.
-- [wdk-wallet-sui-docs](/wdk-wallet-sui-docs/) - full documentation for WDK SUI module.
-- [demo](/demo.mp4) - demo video.
+- [wdk-wallet-sui](/wdk-wallet-sui/) - SUI wallet module implementation.
+- [wdk-examples](/wdk-examples/wallet-sui/) - integrated code samples for WDK SUI module.
+- [wdk-wallet-sui-docs](/docs/wallet-sui/) - full documentation for WDK SUI module.
+- [demo](/demos/wdk-wallet-sui/wallet-sui-demo.mp4) - demo video for SUI module.
 
-[![Demo](/assets/wdk-wallet-sui-demo.png)](https://youtu.be/Uu6pozFcXf0)
+[![demo-sui](/demos/wdk-wallet-sui/wallet-sui-demo.png)](https://youtu.be/Uu6pozFcXf0)
+
+## wdk-protocol-swap-cowswap-evm
+
+- [wdk-protocol-swap-cowswap-evm](/wdk-protocol-swap-cowswap-evm/) - Cowswap module implementation.
+- [wdk-examples](/wdk-examples/cowswap/) - integrated code samples for the WDK Cowswap module.
+- [wdk-cowswap-docs](/docs/wdk-cowswap/) - full documentation for the WDK Cowswap module.
